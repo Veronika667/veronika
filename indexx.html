@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Pre moju mamičku 💐</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Ďakujem Ti, mami 💖</h1>
+    <p>Dnes je Tvoj deň – Deň matiek.</p>
+    <p>Chcem Ti poďakovať za všetko, čo pre mňa robíš,<br>
+       za Tvoju lásku, trpezlivosť a nekonečné objatia.</p>
+    <div class="heart">🌸</div>
+    <p>Si najúžasnejšia mama na svete a veľmi ťa ľúbim.</p>
+
+    <a href="#" onclick="showLove(); return false;" class="smile-link">Klikni sem, mami 💌</a>
+
+    <div id="love-box" class="hidden">
+      <p class="love-text">♥ Si moje srdce, môj domov, moje všetko. Ďakujem, že si. ♥</p>
+      <img src="srdiecko_k.png" alt="Maminka" class="love-img">
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("love-box").classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
